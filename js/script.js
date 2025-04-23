@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const anchorTooltip = document.getElementById("anchor-tooltip");
     const audio = document.querySelector("audio");
   });
-  
+
   anchor.addEventListener("mouseenter", () => {
     const rect = anchor.getBoundingClientRect();
     anchorTooltip.style.opacity = "1";
@@ -17,4 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       anchorTooltip.innerText = "Klik for at stoppe musikken";
     }
+  });
+  anchor.addEventListener("mouseleave", () => {
+    anchorTooltip.style.opacity = "0";
   });
