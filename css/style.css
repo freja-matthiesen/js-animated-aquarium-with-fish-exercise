@@ -305,3 +305,10 @@
 #yellowgreyfish {
   animation: slowDrift 25s linear infinite;
 }
+.yellowfish {
+  position: absolute;
+  bottom: 200px;
+  left: -150px;
+  width: 90px;
+  animation: wavySwim 16s ease-in-out infinite;
+}
