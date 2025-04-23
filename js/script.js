@@ -48,3 +48,15 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+  
+  const fishInfo = [
+    {
+      className: "redfish",
+      art: "Rød fisk",
+      alder: "2 år",
+      latin: "Sebastes marinus",
+      længde: "Op til 1 meter",
+      habitat: "Nordlige Atlanterhav"
+    },
+  ];
+  
