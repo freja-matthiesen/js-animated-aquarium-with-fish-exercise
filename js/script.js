@@ -29,3 +29,4 @@ document.addEventListener("DOMContentLoaded", function () {
       audio.pause();
     }
   });
+  const tooltip = document.getElementById("tooltip");
