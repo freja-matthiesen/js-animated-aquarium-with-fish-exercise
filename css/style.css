@@ -105,6 +105,12 @@
   width: 65px;
   animation: zigzag 14s ease-in-out infinite;
 }
-
+#redfish2 {
+  z-index: auto;
+  bottom: 140px;
+  left: -200px;
+  max-width: 320px;
+  animation: swim 11s linear infinite;
+}
 
 
