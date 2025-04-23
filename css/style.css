@@ -272,3 +272,36 @@
   max-width: 200px;
   line-height: 1.4;
 }
+@keyframes wavySwim {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(300px) translateY(-30px); }
+  50% { transform: translateX(600px) translateY(30px); }
+  75% { transform: translateX(900px) translateY(-20px); }
+  100% { transform: translateX(1200px) translateY(0); }
+}
+
+@keyframes bounceSwim {
+  0% { transform: translateX(0) translateY(0); }
+  20% { transform: translateX(200px) translateY(-50px); }
+  40% { transform: translateX(400px) translateY(0); }
+  60% { transform: translateX(600px) translateY(-50px); }
+  80% { transform: translateX(800px) translateY(0); }
+  100% { transform: translateX(1000px) translateY(-30px); }
+}
+
+@keyframes slowDrift {
+  0% { transform: translateX(0) translateY(0); }
+  50% { transform: translateX(400px) translateY(10px); }
+  100% { transform: translateX(800px) translateY(0); }
+}
+#orangefish {
+  animation: wavySwim 16s ease-in-out infinite;
+}
+
+#redfish {
+  animation: bounceSwim 18s ease-in-out infinite;
+}
+
+#yellowgreyfish {
+  animation: slowDrift 25s linear infinite;
+}
