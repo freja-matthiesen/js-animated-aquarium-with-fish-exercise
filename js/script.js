@@ -70,3 +70,11 @@ document.addEventListener("DOMContentLoaded", function () {
       levested: "Mexicanske Golf og det sydøstlige USA"
     }
     ];
+    tooltip.innerHTML = `
+    <strong>${fish.art}</strong><br>
+    🧬 <em>Latinsk navn:</em> ${fish.latinsknavn}<br>
+    🧓 <strong>Alder:</strong> ${fish.alder}<br>
+    📏 <strong>Længde:</strong> ${fish.længde}<br>
+    ⚖️ <strong>Vægt:</strong> ${fish.vægt}<br>
+    🌍 <strong>Levested:</strong> ${fish.levested}
+  `;
