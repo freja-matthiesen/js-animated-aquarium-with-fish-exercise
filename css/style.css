@@ -312,3 +312,11 @@
   width: 90px;
   animation: wavySwim 16s ease-in-out infinite;
 }
+.greenfish {
+  position: absolute;
+  bottom: 120px;
+  right: -180px;
+  width: 85px;
+  transform: scaleX(-1);
+  animation: bounceSwim 18s ease-in-out infinite;
+}
