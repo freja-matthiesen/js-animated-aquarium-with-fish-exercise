@@ -112,5 +112,12 @@
   max-width: 320px;
   animation: swim 11s linear infinite;
 }
-
+@keyframes swim {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(120vw);
+  }
+}
 
