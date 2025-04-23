@@ -320,3 +320,10 @@
   transform: scaleX(-1);
   animation: bounceSwim 18s ease-in-out infinite;
 }
+.purplefish {
+  position: absolute;
+  bottom: 280px;
+  left: -150px;
+  width: 100px;
+  animation: slowDrift 25s linear infinite;
+}
